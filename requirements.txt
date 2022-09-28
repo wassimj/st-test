@@ -1,2 +1,2 @@
 streamlit
-git+https://github.com/TopologicPySt
+git+https://github.com/wassimj/TopologicPySt
