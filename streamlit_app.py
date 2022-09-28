@@ -4,7 +4,7 @@ st.title('🎈 App Name')
 
 st.write('Hello world!')
 
-import topologic
+from topologicpy import topologic as tp
 
-v = topologic.Vertex.ByCoordinates(0,0,0)
+v = tp.Vertex.ByCoordinates(0,0,0)
 st.write(v)
