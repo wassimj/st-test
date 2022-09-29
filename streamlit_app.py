@@ -4,6 +4,11 @@ st.title('🎈 App Name')
 
 st.write('Hello world!')
 
-import topologicpy
+from topologicpy import topologic
 
-st.write(dir(topologicpy))
+v1 = topologic.Vertex.ByCoordinates(0,0,0)
+v2 = topologic.Vertex.ByCoordinates(10,10,10)
+e1 = topologic.Edge.ByStartVertexEndVertex(v1, v2)
+c1 = e1.Centroid()
+st.write(c1.X(), c1.Y(), c1.Z())
+
